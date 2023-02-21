@@ -86,6 +86,7 @@ const Navbar = () => {
               menu={{
                 items,
               }}
+              trigger={["click"]}
             >
               <a onClick={(e) => e.preventDefault()}>
                 <Space className="text-2xl font-semibold">
