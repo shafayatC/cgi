@@ -1,9 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { useState } from "react";
 import { Drawer } from "antd";
 import { HomeOutlined, MenuOutlined } from "@ant-design/icons";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { CaretDownOutlined } from "@ant-design/icons";
+import { Dropdown, Space } from "antd";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -15,10 +18,49 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
+
+  const items = [
+    {
+      key: "1",
+      label: (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.antgroup.com"
+        >
+          1st menu item
+        </a>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.antgroup.com"
+        >
+          2nd menu item
+        </a>
+      ),
+    },
+    {
+      key: "3",
+      label: (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.antgroup.com"
+        >
+          3rd menu item
+        </a>
+      ),
+    },
+  ];
+
   return (
     <div className="bg">
       <h4 className="font-bold text-3xl ml-5 text-green-700">
-        {" "}
         The Kow Company
       </h4>
       <div className="flex items-center  mt-2">
@@ -35,22 +77,31 @@ const Navbar = () => {
       <Drawer onClose={onClose} open={open}>
         <ul className="nav-ul">
           <li>
-            <Link onClick={onclose} to="home">
+            <Link className="font-semibold" onClick={onclose} to="home">
               Home
             </Link>
           </li>
           <li>
-            <Link onClick={onclose} to="services">
-              Services
-            </Link>
+            <Dropdown
+              menu={{
+                items,
+              }}
+            >
+              <a onClick={(e) => e.preventDefault()}>
+                <Space className="text-2xl font-semibold">
+                  Services
+                  <CaretDownOutlined className="mb-1 ml-2" />
+                </Space>
+              </a>
+            </Dropdown>
           </li>
           <li>
-            <Link onClick={onclose} to="contact">
+            <Link className="font-semibold" onClick={onclose} to="contact">
               Contact
             </Link>
           </li>
           <li>
-            <Link onClick={onclose} to="about">
+            <Link className="font-semibold" onClick={onclose} to="about">
               About
             </Link>
           </li>
