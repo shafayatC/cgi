@@ -19,7 +19,7 @@ const SignIn = () => {
                   type="button"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
-                  class="inline-block p-3 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                  class="inline-block p-3 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
                 >
                   {/* <FaFacebookSquare className="h-4 w-4" /> */}
                 </button>
@@ -28,7 +28,7 @@ const SignIn = () => {
                   type="button"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
-                  class="inline-block p-3 bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                  class="inline-block p-3 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
                 >
                   {/* <FaGoogle className="h-4 w-4"></FaGoogle> */}
                 </button>
@@ -60,7 +60,7 @@ const SignIn = () => {
                 <div class="form-group form-check">
                   <input
                     type="checkbox"
-                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-orange-400 checked:border-orange-400 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                    class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-green-600 checked:border-green-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                     id="exampleCheck2"
                   />
                   <label
@@ -78,16 +78,16 @@ const SignIn = () => {
               <div class="text-center lg:text-left">
                 <button
                   type="button"
-                  class="inline-block px-7 py-3 bg-orange-400 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-lime-400 hover:shadow-lg focus:bg-lime-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="inline-block px-7 py-3 bg-green-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-green-800 hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   Login
                 </button>
                 <p class="text-sm font-semibold mt-2 pt-1  mb-0">
                   Don't have an account?
-                  <Link to="/signup">
+                  <Link to="/sign-up">
                     <a
                       href="#!"
-                      class="text-red-600 hover:text-lime-400 focus:text-red-700 transition duration-200 ease-in-out"
+                      class="text-green-600 ml-2 hover:text-green-800 focus:text-green-700 transition duration-200 ease-in-out"
                     >
                       Sign up
                     </a>

@@ -40,17 +40,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link onClick={onclose} to="">
+            <Link onClick={onclose} to="services">
               Services
             </Link>
           </li>
           <li>
-            <Link onClick={onclose} to="">
+            <Link onClick={onclose} to="contact">
               Contact
             </Link>
           </li>
           <li>
-            <Link onClick={onclose} to="">
+            <Link onClick={onclose} to="about">
               About
             </Link>
           </li>
