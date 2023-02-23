@@ -1,0 +1,14 @@
+.nav-ul {
+  text-decoration: none;
+  font-size: 26px;
+  list-style-type: none;
+}
+
+.nav-ul li {
+  margin-bottom: 16px;
+}
+
+.nav-ul li Link {
+  color: black;
+  font-weight: 600;
+}
