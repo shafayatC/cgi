@@ -16,7 +16,7 @@ const OurCase = () => {
           Our cases
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 mx-20 gap-4 mt-16  justify-center">
+      <div className="grid lg:grid-cols-4 mx-20 gap-3 mt-16  justify-items-center">
         <div className="relative block bg-gray-900 w-64 group">
           <div className="">
             <img
