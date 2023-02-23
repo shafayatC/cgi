@@ -24,6 +24,7 @@ const Navbar = () => {
       key: "1",
       label: (
         <a
+          className=""
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
@@ -34,6 +35,7 @@ const Navbar = () => {
     },
     {
       key: "2",
+
       label: (
         <a
           target="_blank"
@@ -87,23 +89,33 @@ const Navbar = () => {
                 items,
               }}
               trigger={["click"]}
+              className="bg-black"
             >
-              <a onClick={(e) => e.preventDefault()}>
-                <Space className="text-2xl font-semibold">
+              <Link
+                className="font-semibold hover:text-white "
+                onClick={(e) => e.preventDefault()}
+              >
+                <button className="text-2xl flex items-center  hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1 font-semibold">
                   Services
-                  <CaretDownOutlined className="mb-1 ml-2" />
-                </Space>
-              </a>
+                  <CaretDownOutlined className="  ml-4 mt-1" />
+                </button>
+              </Link>
             </Dropdown>
           </li>
           <li>
-            <Link className="font-semibold" onClick={onclose} to="contact">
+            <Link className="font-semibold " onClick={onclose} to="contact">
               Contact
             </Link>
           </li>
           <li>
-            <Link className="font-semibold" onClick={onclose} to="about">
-              About
+            <Link
+              to="about"
+              onClick={onclose}
+              className="font-semibold hover:text-white"
+            >
+              <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1">
+                About
+              </button>
             </Link>
           </li>
           <li>
@@ -112,7 +124,7 @@ const Navbar = () => {
               onClick={onClose}
               className="font-semibold hover:text-white "
             >
-              <button className=" hover:bg-green-500 w-80 text-left hover:text-white rounded-md p-1 ">
+              <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1 ">
                 Sign in
               </button>
             </Link>
@@ -123,7 +135,7 @@ const Navbar = () => {
               onClick={onclose}
               className="font-semibold hover:text-white"
             >
-              <button className=" hover:bg-green-500 w-80 text-left hover:text-white rounded-md p-1">
+              <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1">
                 Sign up
               </button>
             </Link>
