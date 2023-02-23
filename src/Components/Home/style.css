@@ -1,3 +1,7 @@
+.homeKWrap {
+    height: calc(100vh - 76px);
+}
+
 .home_right {
     float: right;
     margin-top: 15%;
