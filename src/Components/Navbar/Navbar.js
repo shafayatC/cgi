@@ -59,7 +59,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg">
+    <div className="flex items-center justify-between">
       <h4 className="font-bold text-3xl ml-5 text-green-700">
         The Kow Company
       </h4>
