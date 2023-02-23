@@ -4,6 +4,7 @@ import ContactUs from '../ContactUs/ContactUs';
 import OurCase from '../OurCase/OurCase';
 import ProductVideo from '../ProductVideo/ProductVideo';
 import ServiceFor from '../ServiceFor/ServiceFor';
+import Services from '../Services/Services';
 import './style.css'; 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       </div>
     </div>
         <AboutKow/>
+        <Services/>
        <OurCase></OurCase>
        <ServiceFor></ServiceFor>
        <ProductVideo></ProductVideo>
