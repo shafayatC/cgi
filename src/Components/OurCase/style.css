@@ -1,0 +1,58 @@
+.heading_1 {
+  width: 100%;
+  text-align: center;
+}
+.heading_1 h2 {
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+}
+.heading_1 h2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  height: 2px;
+  background: #02b989;
+}
+
+/* ---------for2---------- */
+.heading_2 {
+  width: 100%;
+  text-align: center;
+}
+.heading_2 h2 {
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+}
+.heading_2 h2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 64%;
+  height: 2px;
+  background: #02b989;
+}
+
+/* ---------for3---------- */
+.heading_3 {
+  width: 100%;
+  text-align: center;
+}
+.heading_3 h2 {
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+}
+.heading_3 h2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 77%;
+  height: 2px;
+  background: #02b989;
+}
