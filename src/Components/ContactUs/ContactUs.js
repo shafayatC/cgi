@@ -2,11 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-black">
-      <div className="pt-10 pb-6">
-        <p className=" text-white  text-center border-b-2 border-b-shade-color text-4xl">
-          Discuss your ambitions with us
-        </p>
+    <div>
+      <div className="mt-20 heading_3 mb-20">
+        <h2>Discuss your ambitions with us</h2>
         <div className="flex flex-col mt-10 items-center">
           <p className=" text-white  ">
             Use our knowledge to get your organization ready for the future.{" "}
