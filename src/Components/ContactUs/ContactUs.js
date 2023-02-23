@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-black">
-      <div className="pt-10 pb-6">
+    <div>
+      <div className="pt-10 pb-10">
         <p className=" text-white  text-center border-b-2 border-b-shade-color text-4xl">
           Discuss your ambitions with us
         </p>

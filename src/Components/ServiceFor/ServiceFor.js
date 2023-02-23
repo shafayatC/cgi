@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceFor = () => {
   return (
-    <div className="bg-black ">
+    <div>
       <div className="pt-10">
         <p className="text-white  text-center border-b-2 border-b-shade-color text-4xl">
           Who we work for
