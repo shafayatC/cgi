@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div>
-      <div className="pt-10 pb-10">
+      <div className="mt-20 mb-20">
         <p className=" text-white  text-center border-b-2 border-b-shade-color text-4xl">
           Discuss your ambitions with us
         </p>
