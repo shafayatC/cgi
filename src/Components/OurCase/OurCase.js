@@ -7,14 +7,13 @@ import p5 from "./images/5.png";
 import p6 from "./images/6.png";
 import p7 from "./images/7.png";
 import p8 from "./images/8.png";
+import "./style.css";
 
 const OurCase = () => {
   return (
     <div className=" pt-10 pb-10">
-      <div>
-        <p className="text-white  text-center border-b-2 border-b-shade-color text-4xl">
-          Our cases
-        </p>
+      <div className=" heading_1  ">
+        <h2>Our cases</h2>
       </div>
       <div className="grid lg:grid-cols-4 mx-20 gap-3 mt-16  justify-items-center">
         <div className="relative block bg-gray-900 w-64 group">
