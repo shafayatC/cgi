@@ -12,3 +12,11 @@
   color: black;
   font-weight: 600;
 }
+.menu {
+	display: flex;
+	align-items: center;
+	border-color: #02b989;
+	color: #fff;
+	font-weight: bold;
+}
+.menu span {margin: auto;}
