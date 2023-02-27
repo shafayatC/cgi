@@ -12,10 +12,10 @@ import Product from "./Components/Product/Product";
 
 function App() {
   return (
-    <div id="appWrap" className="relative">
+    <div id="appWrap" className="relative overflow-hidden">
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Product />} />
+        <Route path="/" element={<Home />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
       </Routes>
