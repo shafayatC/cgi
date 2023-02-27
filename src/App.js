@@ -8,13 +8,14 @@ import SignUp from "./Components/Login/SignUp";
 import Navbar from "./Components/Navbar/Navbar";
 
 import "./App.css";
+import Product from "./Components/Product/Product";
 
 function App() {
   return (
     <div id="appWrap" className="relative">
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Product />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
       </Routes>

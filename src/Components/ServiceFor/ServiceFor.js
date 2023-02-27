@@ -9,11 +9,11 @@ const ServiceFor = () => {
     },
     {
       url: "https://sellercentral.amazon.com/gspn/provider-details/Imaging/284b7303-cec9-403e-b763-375399824520?ref_=sc_gspn_ilst_idt-284b7303&localeSelection=en_US&sellFrom=US&sellIn=US", 
-      img: require('./images/amazon.png')
+      img: require('./images/Amazon.png')
     },
     {
       url: "https://app.cutoutwiz.com/", 
-      img: require('./images/cutoutwiz.png')
+      img: require('./images/Cutoutwiz.png')
     },
     {
       url: "https://www.shotflow.com/", 

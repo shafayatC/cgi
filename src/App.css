@@ -4,3 +4,22 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
+.heading_1 {
+	width: 100%;
+	text-align: center;
+}
+.heading_1 h2 {
+font-size: 50px;
+color: #fff;
+position: relative;
+}
+.heading_1 h2::after {
+content: "";
+position: absolute;
+right: 0;
+bottom: 0;
+width: 57%;
+height: 2px;
+background: #02b989;
+}
+
