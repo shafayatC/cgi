@@ -1,19 +1,41 @@
 import React from "react";
 
 const ServiceFor = () => {
+
+  const imgData = [
+    {
+      url: "https://apps.shopify.com/cutoutwiz", 
+      img: require('./images/sopify.png')
+    },
+    {
+      url: "https://sellercentral.amazon.com/gspn/provider-details/Imaging/284b7303-cec9-403e-b763-375399824520?ref_=sc_gspn_ilst_idt-284b7303&localeSelection=en_US&sellFrom=US&sellIn=US", 
+      img: require('./images/amazon.png')
+    },
+    {
+      url: "https://app.cutoutwiz.com/", 
+      img: require('./images/cutoutwiz.png')
+    },
+    {
+      url: "https://www.shotflow.com/", 
+      img: require('./images/shotflow.png')
+    },
+    {
+      url: "https://www.bigcommerce.com/apps/cutoutwiz/", 
+      img: require('./images/glowcommerz.png')
+    },
+  ]
+
   return (
-    <div className="bg-black ">
-      <div className="pt-10">
-        <p className="text-white  text-center border-b-2 border-b-shade-color text-4xl">
-          Who we work for
-        </p>
+    <div>
+      <div className="mt-20 heading_2 ">
+        <h2>Who we work for</h2>
       </div>
-      <div className="grid lg:grid-cols-5 font-extrabold text-3xl pb-8 text-white justify-items-center mt-16">
-        <p>Shopify</p>
-        <p>AmazonSPN</p>
-        <p>CutOutWiz</p>
-        <p>ShotFlow</p>
-        <p>BigCommerce</p>
+      <div className="container m-auto grid md:grid-cols-5 text-3xl  pb-16 mt-24 gap-4 md:gap-0 ">
+        {imgData.map(data=> 
+        <a target="_blank" href={data.url} className="h-[100px] flex flex-col md:flex-row items-center">
+          <img className="h-full md:h-auto hover:p-5 duration-100 ease-in" src={data.img}/>
+        </a>
+          )}
       </div>
     </div>
   );
