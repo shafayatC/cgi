@@ -20,3 +20,7 @@
 	font-weight: bold;
 }
 .menu span {margin: auto;}
+/* shs start*/
+.ant-drawer-body {
+	padding-right: 0px !important;
+}
