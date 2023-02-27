@@ -61,13 +61,14 @@
 .img-container {
   display: block;
   position: relative;
-  /* padding-top: 5%; */
+  /* padding-top: 50%; */
 }
 
 .img-bag {
   aspect-ratio: 4/3;
   width: 100%;
-  opacity: 1;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*-------------- image animation ------------------- */
