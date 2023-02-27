@@ -16,7 +16,7 @@ const Home = () => {
         <div id='ballShadow'></div>
           <img className='ballAnim' src={require('./img/Ball.png')} />
         </div>
-          <img src={require('./img/K.png')} className="h-full" />
+          <img src={require('./img/K.png')} className="h-full max-w-none sm:max-w-full" />
       </div>
       <div className='home_right col-span-1'>
         <h3>3D PRODUCT</h3>

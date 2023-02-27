@@ -60,6 +60,7 @@ const Navbar = () => {
     },
   ];
 
+
   return (
     <div className="container mx-auto pt-5 relative z-10">
       <div className="flex items-center justify-between">
@@ -78,9 +79,12 @@ const Navbar = () => {
         <Drawer onClose={onClose} open={open}>
           <ul className="nav-ul">
             <li>
-              <Link className="font-semibold" onClick={onclose} to="home">
-                Home
-              </Link>
+              <Link className="font-medium" onClick={onclose} to="home">
+
+              <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Home
+                </button>     
+          </Link>
             </li>
             <li>
               <Dropdown
@@ -88,13 +92,13 @@ const Navbar = () => {
                   items,
                 }}
                 trigger={["click"]}
-                className="bg-black"
+                className=""
               >
                 <Link
-                  className="font-semibold hover:text-white "
+                  className="font-medium hover:text-white "
                   onClick={(e) => e.preventDefault()}
                 >
-                  <button className="text-2xl flex items-center  hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1 font-semibold">
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5 flex items-center">
                     Services
                     <CaretDownOutlined className="  ml-4 mt-1" />
                   </button>
@@ -102,29 +106,13 @@ const Navbar = () => {
               </Dropdown>
             </li>
             <li>
-              <Link className="font-semibold " onClick={onclose} to="contact">
-                Contact
-              </Link>
-            </li>
-            <li>
               <Link
-                to="about"
+                to="sign-up"
                 onClick={onclose}
-                className="font-semibold hover:text-white"
+                className="font-medium hover:text-white"
               >
-                <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1">
-                  About
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="sign-in"
-                onClick={onClose}
-                className="font-semibold hover:text-white "
-              >
-                <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1 ">
-                  Sign in
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Portfolio
                 </button>
               </Link>
             </li>
@@ -132,9 +120,53 @@ const Navbar = () => {
               <Link
                 to="sign-up"
                 onClick={onclose}
-                className="font-semibold hover:text-white"
+                className="font-medium hover:text-white"
               >
-                <button className=" hover:bg-green-500 w-full text-left hover:text-white rounded-md p-1">
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Apps
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="sign-up"
+                onClick={onclose}
+                className="font-medium hover:text-white"
+              >
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Price
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="sign-up"
+                onClick={onclose}
+                className="font-medium hover:text-white"
+              >
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Blog
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="sign-up"
+                onClick={onclose}
+                className="font-medium hover:text-white"
+              >
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Contact
+                </button>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="sign-up"
+                onClick={onclose}
+                className="font-medium hover:text-white"
+              >
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
                   Sign up
                 </button>
               </Link>
