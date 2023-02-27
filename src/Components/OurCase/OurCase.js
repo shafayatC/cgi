@@ -11,7 +11,7 @@ import "./style.css";
 
 const OurCase = () => {
   return (
-    <div className=" pt-10 pb-10">
+    <div className=" pt-10 container mx-auto pb-10">
       <div className=" heading_1  ">
         <h2>Our cases</h2>
       </div>
