@@ -13,35 +13,35 @@ const Case = () => {
   const CaseImage = [
     {
       img: p1,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p2,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p3,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p4,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p5,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p6,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p7,
-      title: "",
+      title: "Product Title",
     },
     {
       img: p8,
-      title: "",
+      title: "Product Title",
     },
   ];
   return (
@@ -52,9 +52,13 @@ const Case = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16  justify-items-center">
         {CaseImage.map((data) => (
           <div>
-            <div className="img-container hover:scale-110 transition duration-300 ease-in-out">
+            <div className="img-container  hover:scale-110 transition duration-300 ease-in-out">
               <img className="img-bag" src={data.img} alt="" />
-              <button className="view-button">View More</button>
+              <div className="view-content ">
+                <p className="text-white">{data.title}</p>
+                <button className="view-button">View More</button>
+              </div>
+              <div className="blank "></div>
             </div>
           </div>
         ))}
