@@ -8,10 +8,11 @@ import SignUp from "./Components/Login/SignUp";
 import Navbar from "./Components/Navbar/Navbar";
 
 import "./App.css";
+import Product from "./Components/Product/Product";
 
 function App() {
   return (
-    <div id="appWrap" className="relative">
+    <div id="appWrap" className="relative overflow-hidden">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
