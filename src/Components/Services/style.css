@@ -24,12 +24,22 @@
 	align-items: center;
 	grid-gap: 20px;
 }
+.srvImage {
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 .serviceProductWrap img {
 	width: 75px;
 }
 .serviceProductDes {
     text-align: center;
-    border-right: 2px solid #02b989;
+    border-color: #02b989;
+    border-right-style: solid;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
 }
 .serviceProductDes h5 {
     color: #fff;
@@ -38,7 +48,9 @@
 }
 .serviceProductDes p {
 	color: #ffff;
-	padding: 0 85px;
 	line-height: 17px;
-	padding-top: 20px;
+}
+.serviceProductWrap:nth-child(4n) .serviceProductDes {
+	border-right: none !important;
+    border-bottom: none !important;
 }

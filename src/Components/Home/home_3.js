@@ -5,19 +5,13 @@ import OurCase from '../OurCase/OurCase';
 import ProductVideo from '../ProductVideo/ProductVideo';
 import ServiceFor from '../ServiceFor/ServiceFor';
 import Services from '../Services/Services';
-import './style.css'; 
+import './style_3.css'; 
 
 const Home = () => {
   return (
     <>
     <div className='homeKWrap container m-auto'>
-      <div className="kshapWrap h-[645px] absolute top-0">
-        <div className='ballShadowWrap'>
-        <div id='ballShadow'></div>
-          <img className='ballAnim' src={require('./img/Ball.png')} />
-        </div>
-          <img src={require('./img/K.png')} className="h-full" />
-      </div>
+      <img src={require('./img/kshape.png')} className="h-screen absolute h-screen top-0"/>
       <div className='home_right col-span-1'>
         <h3>3D PRODUCT</h3>
         <h2>MODELING</h2>
