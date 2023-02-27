@@ -36,8 +36,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="text-center">
-            <span className="font-bold text-white  text-lg">Menu</span>
-            <a className="link link-hover">Home</a>
+            <span className="font-bold text-white   text-lg">Menu</span>
+            <a className="link link-hover ">Home</a>
             <a className="link link-hover">Features</a>
             <a className="link link-hover">Services</a>
             <a className="link link-hover">Pricing</a>
@@ -73,8 +73,11 @@ const Footer = () => {
           </div>
         </footer>
       </div>
-      <footer className=" px-10 py-4 border-t bg-shade-color text-center text-white font-semibold border-black">
-        <p>Designed And Developed By CutOutWiz</p>
+      <footer className=" px-10 py-4 border-t bg-shade-color text-center text-white  border-black">
+        <p>
+          Designed And Developed By{" "}
+          <span className="font-semibold">CutOutWiz</span>{" "}
+        </p>
       </footer>
     </div>
   );
