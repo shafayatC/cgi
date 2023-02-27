@@ -13,27 +13,35 @@ const Case = () => {
   const CaseImage = [
     {
       img: p1,
+      title: "",
     },
     {
       img: p2,
+      title: "",
     },
     {
       img: p3,
+      title: "",
     },
     {
       img: p4,
+      title: "",
     },
     {
       img: p5,
+      title: "",
     },
     {
       img: p6,
+      title: "",
     },
     {
       img: p7,
+      title: "",
     },
     {
       img: p8,
+      title: "",
     },
   ];
   return (
@@ -41,12 +49,12 @@ const Case = () => {
       <div className=" heading_1  ">
         <h2>Our cases</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 mx-20 gap-3 mt-16  justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16  justify-items-center">
         {CaseImage.map((data) => (
           <div>
-            <div className="img-container">
+            <div className="img-container hover:scale-110 transition duration-300 ease-in-out">
               <img className="img-bag" src={data.img} alt="" />
-              <button className="button">View More</button>
+              <button className="view-button">View More</button>
             </div>
           </div>
         ))}

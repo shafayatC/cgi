@@ -70,8 +70,8 @@
 }
 
 .img-container:hover::before {
-  width: 200px;
-  height: 170px;
+  width: 150px;
+  height: 120px;
   opacity: 1;
   visibility: visible;
 }
@@ -85,15 +85,15 @@
   visibility: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  left: 0;
-  top: 0;
-  border-left: 3px solid white;
-  border-top: 3px solid white;
+  left: 10px;
+  top: 10px;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
 }
 
 .img-container:hover::after {
-  width: 200px;
-  height: 170px;
+  width: 150px;
+  height: 120px;
   opacity: 1;
   visibility: visible;
 }
@@ -107,25 +107,25 @@
   visibility: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  right: 0;
-  bottom: 0;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
+  right: 10px;
+  bottom: 10px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
 }
 /* ------------------button add------------------- */
-.button {
+.view-button {
   position: absolute;
   width: 100px;
   color: white;
   background-color: #02b989;
   left: 90px;
-  top: 130px;
+  top: 120px;
   padding: 4px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.35s ease;
 }
 
-.img-container:hover .button {
+.img-container:hover .view-button {
   opacity: 1;
 }
