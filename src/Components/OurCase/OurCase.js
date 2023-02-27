@@ -15,7 +15,7 @@ const OurCase = () => {
       <div className=" heading_1  ">
         <h2>Our cases</h2>
       </div>
-      <div className="grid lg:grid-cols-4 mx-20 gap-3 mt-16  justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-20 gap-3 mt-16  justify-items-center">
         <div className="relative block bg-gray-900 w-64 group">
           <div className="">
             <img
@@ -33,7 +33,6 @@ const OurCase = () => {
             </div>
           </div>
         </div>
-
         <div>
           <img
             className="h-60 w-64 hover:border-r-4 hover:border-t-4 hover:border-shade-color hover:scale-110 transition duration-300 ease-in-out"
