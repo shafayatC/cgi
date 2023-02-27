@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="bg-shade-color">
       <div className="container mx-auto">
-        <footer className=" footer p-10 grid lg:grid-cols-5 lg:justify-items-center ">
+        <footer className=" footer px-10 pt-7 pb-3 grid lg:grid-cols-5 lg:justify-items-center ">
           <div className="-mb-6">
             <a href="">
               <img className="h-10 w-20" src={logo} alt="" />
@@ -54,7 +54,17 @@ const Footer = () => {
             <a className="link link-hover">Sign Up</a>
           </div>
           <div>
-            <span className="font-bold text-white text-lg">Our Address</span>
+            <span className="font-bold text-white text-lg pb-2 ml-4">
+              Our Address
+            </span>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10329.283883735325!2d90.39304891556642!3d23.749043274767246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1fb12dbea63beca!2sCutOutWiz!5e0!3m2!1sbn!2sbd!4v1639129804206!5m2!1sbn!2sbd"
+              width="70%"
+              height="70%"
+              style={{ border: "0" }}
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
           </div>
         </footer>
       </div>

@@ -55,8 +55,8 @@ const Case = () => {
             <div className="img-container  hover:scale-110 transition duration-300 ease-in-out">
               <img className="img-bag" src={data.img} alt="" />
               <div className="view-content ">
-                <p className="text-white">{data.title}</p>
-                <button className="view-button">View More</button>
+                <p className="text-white  mb-2">{data.title}</p>
+                <button className="view-button text-sm">View More</button>
               </div>
               <div className="blank "></div>
             </div>
