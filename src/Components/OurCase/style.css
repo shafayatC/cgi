@@ -57,7 +57,7 @@
   background: #02b989;
 }
 
-/*-------------- image animation ------------------- */
+/* --------------image ratio--------- */
 .img-container {
   display: block;
   position: relative;
@@ -67,12 +67,15 @@
 .img-bag {
   aspect-ratio: 4/3;
   width: 100%;
+  opacity: 1;
 }
 
+/*-------------- image animation ------------------- */
 .img-container:hover::before {
   width: 150px;
   height: 120px;
   opacity: 1;
+  z-index: 10;
   visibility: visible;
 }
 
@@ -113,19 +116,44 @@
   border-bottom: 2px solid white;
 }
 /* ------------------button add------------------- */
-.view-button {
+.view-content {
   position: absolute;
   width: 100px;
-  color: white;
-  background-color: #02b989;
-  left: 90px;
-  top: 120px;
+
+  left: 50%;
+  top: 40%;
+  transform: -50%;
+  translate: -50%;
   padding: 4px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.35s ease;
 }
+.view-button {
+  width: 100px;
+  color: white;
+  background-color: #02b989;
 
-.img-container:hover .view-button {
+  padding: 3px;
+  text-align: center;
+}
+
+.img-container:hover .view-content {
   opacity: 1;
+  z-index: 10;
+}
+.img-container:hover .blank {
+  visibility: visible;
+  opacity: 0.5;
+}
+.blank {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
