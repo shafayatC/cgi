@@ -56,3 +56,76 @@
   height: 2px;
   background: #02b989;
 }
+
+/*-------------- image animation ------------------- */
+.img-container {
+  display: block;
+  position: relative;
+  /* padding-top: 5%; */
+}
+
+.img-bag {
+  aspect-ratio: 4/3;
+  width: 100%;
+}
+
+.img-container:hover::before {
+  width: 200px;
+  height: 170px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.img-container::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  left: 0;
+  top: 0;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+}
+
+.img-container:hover::after {
+  width: 200px;
+  height: 170px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.img-container::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+}
+/* ------------------button add------------------- */
+.button {
+  position: absolute;
+  width: 100px;
+  color: white;
+  background-color: #02b989;
+  left: 90px;
+  top: 130px;
+  padding: 4px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.img-container:hover .button {
+  opacity: 1;
+}
