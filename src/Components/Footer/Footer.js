@@ -28,11 +28,11 @@ const Footer = () => {
             </p>
             <hr className=" mt-7 w-20 ml-10 md:ml-0 lg:ml-0  " />
             <p className="flex ml-10 md:ml-0 lg:ml-0">
-              <FaFacebook className="h-6 w-6 mr-2 text-white"></FaFacebook>
-              <FaYoutube className="h-6 w-6 mr-2 text-white"></FaYoutube>
-              <FaLinkedinIn className="h-6 w-6 mr-2 text-white"></FaLinkedinIn>
-              <FaTwitter className="h-6 w-6 mr-2 text-white"></FaTwitter>
-              <FaInstagram className="h-6 w-6 mr-2 text-white"></FaInstagram>
+              <FaFacebook className="h-6 w-6 mr-2 text-white cursor-pointer"></FaFacebook>
+              <FaYoutube className="h-6 w-6 mr-2 text-white cursor-pointer"></FaYoutube>
+              <FaLinkedinIn className="h-6 w-6 mr-2 text-white cursor-pointer"></FaLinkedinIn>
+              <FaTwitter className="h-6 w-6 mr-2 text-white cursor-pointer"></FaTwitter>
+              <FaInstagram className="h-6 w-6 mr-2 text-white cursor-pointer"></FaInstagram>
             </p>
           </div>
           <div className="text-center">
