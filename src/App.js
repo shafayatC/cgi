@@ -7,6 +7,9 @@ import SignIn from "./Components/Login/SignIn";
 import SignUp from "./Components/Login/SignUp";
 import Navbar from "./Components/Navbar/Navbar";
 import Product from "./Components/Product/Product";
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+import TermsCondition from "./Components/TermsCondition/TermsCondition";
+import ContactForm from "./Components/ContactForm/ContactForm";
 import "./App.css";
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/contact-form" element={<ContactForm />} />
       </Routes>
       <Footer></Footer>
     </div>

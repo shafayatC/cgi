@@ -11,9 +11,13 @@ const ContactUs = () => {
             <br />
             Contact our experts now for an introductory meeting.
           </p>
-          <button className="bg-shade-color px-4 py-1 mt-6 text-lg font-semibold text-white">
+          <a
+            href="contact-form"
+            target="_blank"
+            className="bg-shade-color px-4 py-1 mt-6 text-lg font-semibold text-white"
+          >
             Contact Us
-          </button>
+          </a>
         </div>
       </div>
     </div>
