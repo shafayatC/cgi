@@ -66,7 +66,7 @@ const ContactForm = () => {
                 <div className=" px-2 py-2 rounded-md mx-auto bg-white w-96">
                   <input
                     type="text"
-                    className="form-control"
+                    className="w-full"
                     placeholder="Name"
                     name="name"
                     required
@@ -76,7 +76,7 @@ const ContactForm = () => {
                 <div className=" px-2 py-2 rounded-md mx-auto bg-white w-96">
                   <input
                     type="email"
-                    className="form-control"
+                    className="w-full"
                     placeholder="Email"
                     name="email"
                     required
@@ -85,7 +85,7 @@ const ContactForm = () => {
                 <div className=" px-2 py-2 rounded-md mx-auto bg-white w-96">
                   <input
                     type="text"
-                    className="form-control"
+                    className="w-full"
                     placeholder="Subject"
                     name="subject"
                     required
@@ -94,9 +94,8 @@ const ContactForm = () => {
 
                 <div className=" px-2 py-2 rounded-md mx-auto bg-white w-96">
                   <textarea
-                    className="form-control"
+                    className="form-control w-full"
                     id=""
-                    cols="30"
                     rows="8"
                     placeholder="Your message"
                     name="message"
@@ -109,7 +108,6 @@ const ContactForm = () => {
                   hidden
                 >
                   <textarea
-                    cols="30"
                     rows="8"
                     type="number"
                     className="form-control"
@@ -123,7 +121,7 @@ const ContactForm = () => {
                     <input
                       type="submit"
                       id="button-19"
-                      className="bg-shade-color w-40 mt-2 font-semibold text-white px-3 rounded-md py-1 "
+                      className="bg-shade-color w-40 mt-2 font-semibold cursor-pointer text-white px-3 rounded-md py-1 "
                       value="SUBMIT"
                     ></input>
                   </div>

@@ -12,6 +12,7 @@ import Product from "./Components/Product/Product";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsCondition from "./Components/TermsCondition/TermsCondition";
 import ContactForm from "./Components/ContactForm/ContactForm";
+import Thankyou from "./Components/Thankyou/Thankyou";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsCondition />} />
         <Route path="/contact-form" element={<ContactForm />} />
+        <Route path="/thank-you/*" element={<Thankyou />} />
       </Routes>
       <Footer></Footer>
     </div>
