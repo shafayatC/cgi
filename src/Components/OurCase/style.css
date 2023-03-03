@@ -119,7 +119,7 @@
 /* ------------------button add------------------- */
 .view-content {
   position: absolute;
-  width: 100px;
+ /* width: 100px; */
 
   left: 50%;
   top: 40%;
