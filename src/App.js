@@ -6,13 +6,12 @@ import Home from "./Components/Home/Home";
 import SignIn from "./Components/Login/SignIn";
 import SignUp from "./Components/Login/SignUp";
 import Navbar from "./Components/Navbar/Navbar";
-
-import "./App.css";
 import Product from "./Components/Product/Product";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import TermsCondition from "./Components/TermsCondition/TermsCondition";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Thankyou from "./Components/Thankyou/Thankyou";
+import "./App.css";
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
