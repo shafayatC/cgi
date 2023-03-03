@@ -14,40 +14,48 @@ const Case = () => {
     {
       img: p1,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p2,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p3,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p4,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p5,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p6,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p7,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
     {
       img: p8,
       title: "Product Title",
+      cat: "Clothing & Shoes"
     },
   ];
   return (
     <div className="pt-10 container mx-auto pb-9">
-      <div className=" heading_1  ">
-        <h2>Our cases</h2>
+      <div className="heading_2 ">
+        <h2>industries we work for</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16  justify-items-center">
         {CaseImage.map((data) => (
@@ -55,8 +63,9 @@ const Case = () => {
             <div className="img-container  hover:scale-110 transition duration-300 ease-in-out">
               <img className="img-bag" src={data.img} alt="" />
               <div className="view-content ">
-                <p className="text-white  mb-2">{data.title}</p>
-                <button className="view-button text-sm">View More</button>
+              <p className="text-white  mb-2">{data.title}</p>
+              <p className="text-white  mb-2">{data.cat}</p>
+               {/*<button className="view-button text-sm">View More</button> */} 
               </div>
               <div className="blank "></div>
             </div>
