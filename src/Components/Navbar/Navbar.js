@@ -64,7 +64,7 @@ const Navbar = () => {
   return (
     <div className="container mx-auto pt-5 relative z-10">
       <div className="flex items-center justify-between">
-        <a href="#"><img className="logo w-[100px]" src="img/logo.png" /></a>
+        <Link to="/"><img className="logo w-[100px]" src="img/logo.png" /></Link>
         <div className="menu_wrap flex items-center  mt-2">
           <button
             className="menu mr-3 border-green-600 border-2 h-12 w-12 rounded-full"
