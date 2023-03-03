@@ -19,19 +19,16 @@ function TermsCondition(props) {
 
             <ul>
               <li>
-                {" "}
                 By Uploading your Images in your FTP Server and send the link to
-                us{" "}
+                us
               </li>
               <li>
-                {" "}
                 By uploading images in our FTP server through the link provided
-                by us and notify us{" "}
+                by us and notify us
               </li>
               <li>
-                {" "}
                 By Uploading Images through our Web App and Shopify App from
-                your Local Storage (Laptop, Personal Computer etc.){" "}
+                your Local Storage (Laptop, Personal Computer etc.)
               </li>
             </ul>
           </div>
@@ -41,28 +38,25 @@ function TermsCondition(props) {
 
             <ul>
               <li>
-                {" "}
                 Need to Advance 30% of the payment after placing the order as
-                advance.{" "}
+                advance.
               </li>
               <li>
-                {" "}
                 Need to Pay 30% of the payment after getting the Work in
-                Progress (Processed images as per the SOP){" "}
+                Progress (Processed images as per the SOP)
               </li>
               <li>
                 Rest of the 40% should be paid within 1 week of getting the
-                Finished Goods (Processed Images after Final Correction){" "}
+                Finished Goods (Processed Images after Final Correction)
               </li>
               <li>
-                {" "}
                 Payment can be made by Visa, MasterCard, Amex, only. You warrant
                 that you are an authorized user of the credit card and other
                 accounts used to complete payment.
               </li>
               <li>
                 All or any of the above can be waived upon discussion with our
-                client management team.{" "}
+                client management team.
               </li>
             </ul>
           </div>
@@ -72,23 +66,21 @@ function TermsCondition(props) {
 
             <ul>
               <li>
-                {" "}
                 Order is needed to be cancelled before we process 10 images from
                 the images you provide us. If you cancel within this limit you
                 will get back the amount you have paid as advance.
               </li>
               <li>
                 If you cancelled your order after processing 10 images than you
-                will not get any payback for your advance payment.{" "}
+                will not get any payback for your advance payment.
               </li>
               <li>
-                {" "}
                 If you cancelled order after work in progress than you need to
-                pay the 60% of the Total Payment{" "}
+                pay the 60% of the Total Payment
               </li>
               <li>
                 After getting the Finished Good there will be no order
-                cancellation policy.{" "}
+                cancellation policy.
               </li>
             </ul>
           </div>
@@ -105,7 +97,7 @@ function TermsCondition(props) {
               chance to give your feedback or observation to recover the error.
               After that we will send you the finished goods. Once you give the
               second feedback, there will be no option for order cancellation or
-              any other observation.{" "}
+              any other observation.
             </p>
           </div>
 
@@ -117,7 +109,7 @@ function TermsCondition(props) {
               orders and payment secure, but in the absence of negligence on our
               part, we cannot be held liable for any loss you may suffer if a
               third party acquires unauthorized access to any data you provide
-              when accessing or ordering from the website.{" "}
+              when accessing or ordering from the website.
             </p>
           </div>
 
@@ -129,7 +121,7 @@ function TermsCondition(props) {
               infringe or shall not infringe the IPR of any third party so far
               as related with the service(s) to be provided. The KOW Company
               shall indemnify its Clients against any costs or consequences as a
-              result of such infringements.{" "}
+              result of such infringements.
             </p>
           </div>
 
@@ -140,7 +132,7 @@ function TermsCondition(props) {
               If any portion of the order is determined to be enforceable, the
               remainder of the order shall continue in full force and effect,
               and either party may renegotiate the terms affected by the
-              severance.{" "}
+              severance.
             </p>
           </div>
 
@@ -149,7 +141,7 @@ function TermsCondition(props) {
 
             <p>
               The whole process shall be governed and construed in accordance
-              with the laws of Bangladesh.{" "}
+              with the laws of Bangladesh.
             </p>
           </div>
 
@@ -163,7 +155,7 @@ function TermsCondition(props) {
               either parties.  If both of us are failed to an amicable
               settlement within 15 (Fifteen) days of the first written notice
               from either Party on the matter of disagreement, the parties shall
-              refer the dispute to any competent court of this jurisdiction.{" "}
+              refer the dispute to any competent court of this jurisdiction.
             </p>
           </div>
 
@@ -172,7 +164,7 @@ function TermsCondition(props) {
 
             <p>
               The KOW Company cannot use a third party without taking the
-              consent of the client.{" "}
+              consent of the client.
             </p>
           </div>
 
@@ -183,7 +175,7 @@ function TermsCondition(props) {
               All Communications should be done by the registered email address
               of the authorized representatives from both parties. The receiving
               party if so requested by the sending party without undue delay
-              shall confirm any correspondence.{" "}
+              shall confirm any correspondence.
             </p>
           </div>
 
@@ -211,7 +203,7 @@ function TermsCondition(props) {
               other than its employees and contractors bound to confidential
               obligations consistent with those set forth herein and who have a
               need to know such Confidential Information for purposes of
-              exercising its rights.{" "}
+              exercising its rights.
             </p>
           </div>
         </div>
