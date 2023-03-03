@@ -3,6 +3,7 @@ import AboutKow from '../AboutKow/AboutKow';
 import ContactUs from '../ContactUs/ContactUs';
 import OurCase from '../OurCase/OurCase';
 import ProductVideo from '../ProductVideo/ProductVideo';
+import ServiceExplore from '../ServiceExplore/ServiceExplore';
 import ServiceFor from '../ServiceFor/ServiceFor';
 import Services from '../Services/Services';
 import './style.css'; 
@@ -27,7 +28,8 @@ const Home = () => {
         <AboutKow/>
         <Services/>
        <OurCase></OurCase>
-       <ServiceFor></ServiceFor>
+       <ServiceExplore/>
+       {/* <ServiceFor></ServiceFor>*/}
        <ProductVideo></ProductVideo>
        <ContactUs></ContactUs>
        </>

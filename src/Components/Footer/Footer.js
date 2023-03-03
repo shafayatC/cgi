@@ -28,11 +28,11 @@ const Footer = () => {
             </p>
             <hr className=" mt-7 w-20 ml-10 md:ml-0 lg:ml-0  " />
             <p className="flex ml-10 md:ml-0 lg:ml-0">
-              <FaFacebook className="h-6 w-6 mr-2 text-white"></FaFacebook>
-              <FaYoutube className="h-6 w-6 mr-2 text-white"></FaYoutube>
-              <FaLinkedinIn className="h-6 w-6 mr-2 text-white"></FaLinkedinIn>
-              <FaTwitter className="h-6 w-6 mr-2 text-white"></FaTwitter>
-              <FaInstagram className="h-6 w-6 mr-2 text-white"></FaInstagram>
+              <FaFacebook className="h-6 w-6 mr-2 text-white cursor-pointer"></FaFacebook>
+              <FaYoutube className="h-6 w-6 mr-2 text-white cursor-pointer"></FaYoutube>
+              <FaLinkedinIn className="h-6 w-6 mr-2 text-white cursor-pointer"></FaLinkedinIn>
+              <FaTwitter className="h-6 w-6 mr-2 text-white cursor-pointer"></FaTwitter>
+              <FaInstagram className="h-6 w-6 mr-2 text-white cursor-pointer"></FaInstagram>
             </p>
           </div>
           <div className="text-center">
@@ -53,10 +53,30 @@ const Footer = () => {
           </div>
           <div className="text-center ml-10 md:ml-0 lg:ml-0">
             <span className="font-bold text-white text-lg">Useful Links</span>
-            <a className="link link-hover">Privacy Policy</a>
-            <a className="link link-hover">Terms & Conditions</a>
-            <a className="link link-hover">Contact Us</a>
-            <a className="link link-hover">Sign Up</a>
+            <a
+              href="privacy-policy "
+              target="_blank"
+              className="link link-hover"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="terms-condition"
+              target="_blank"
+              className="link link-hover"
+            >
+              Terms & Conditions
+            </a>
+            <a href="contact-form" target="_blank" className="link link-hover">
+              Contact Us
+            </a>
+            <a
+              href="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
+              target="_blank"
+              className="link link-hover"
+            >
+              Sign Up
+            </a>
           </div>
           <div className="text-center ml-20 md:ml-0 lg:ml-0">
             <span className="font-bold text-white text-lg pb-2 ml-8 lg:ml-5">
