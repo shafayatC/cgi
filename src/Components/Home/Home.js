@@ -11,7 +11,7 @@ import './style.css';
 const Home = () => {
   return (
     <>
-    <div className='homeKWrap container m-auto'>
+    <div id='home' className='homeKWrap container m-auto'>
       <div className="kshapWrap h-[645px] absolute top-0">
         <div className='ballShadowWrap'>
         <div id='ballShadow'></div>

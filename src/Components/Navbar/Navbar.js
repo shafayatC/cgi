@@ -7,6 +7,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -79,13 +80,14 @@ const Navbar = () => {
         <Drawer onClose={onClose} open={open}>
           <ul className="nav-ul">
             <li>
-              <Link className="font-medium" onClick={onclose} to="home">
+              <HashLink className="font-medium" onClick={onclose} to="/#home">
 
               <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
                   Home
                 </button>     
-          </Link>
+          </HashLink>
             </li>
+            {/* 
             <li>
               <Dropdown
                 menu={{
@@ -105,64 +107,45 @@ const Navbar = () => {
                 </Link>
               </Dropdown>
             </li>
+            */}
             <li>
-              <Link
-                to="sign-up"
+              <HashLink 
+                to="/#service"
+                className="font-medium hover:text-white"
+              >
+                <button onClick={onclose} className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+                  Service
+                </button>
+              </HashLink>
+            </li>
+            
+            <li>
+              <HashLink
+                to="/#workfor"
                 onClick={onclose}
                 className="font-medium hover:text-white"
               >
                 <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
-                  Portfolio
+                  We Work For
                 </button>
-              </Link>
+              </HashLink>
             </li>
             <li>
-              <Link
-                to="sign-up"
+              <HashLink
+                to="#contactus"
                 onClick={onclose}
                 className="font-medium hover:text-white"
               >
                 <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
-                  Apps
+                  Contact us
                 </button>
-              </Link>
+              </HashLink>
             </li>
+            
             <li>
               <Link
-                to="sign-up"
-                onClick={onclose}
-                className="font-medium hover:text-white"
-              >
-                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
-                  Price
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="sign-up"
-                onClick={onclose}
-                className="font-medium hover:text-white"
-              >
-                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
-                  Blog
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="sign-up"
-                onClick={onclose}
-                className="font-medium hover:text-white"
-              >
-                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
-                  Contact
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="sign-up"
+              target="_blank"
+                to="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
                 onClick={onclose}
                 className="font-medium hover:text-white"
               >
