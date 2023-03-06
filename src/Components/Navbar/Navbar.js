@@ -20,52 +20,12 @@ const Navbar = () => {
     setOpen(false);
   };
 
-  const items = [
-    {
-      key: "1",
-      label: (
-        <a
-          className=""
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.antgroup.com"
-        >
-          1st menu item
-        </a>
-      ),
-    },
-    {
-      key: "2",
-
-      label: (
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.antgroup.com"
-        >
-          2nd menu item
-        </a>
-      ),
-    },
-    {
-      key: "3",
-      label: (
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.antgroup.com"
-        >
-          3rd menu item
-        </a>
-      ),
-    },
-  ];
-
-
   return (
     <div className="container mx-auto pt-5 relative z-10">
       <div className="flex items-center justify-between">
-        <Link to="/"><img className="logo w-[100px]" src="img/logo.png" /></Link>
+        <Link to="/">
+          <img className="logo w-[100px]" src="img/logo.png" />
+        </Link>
         <div className="menu_wrap flex items-center  mt-2">
           <button
             className="menu mr-3 border-green-600 border-2 h-12 w-12 rounded-full"
@@ -80,51 +40,23 @@ const Navbar = () => {
         <Drawer onClose={onClose} open={open}>
           <ul className="nav-ul">
             <li>
-              <HashLink className="font-medium" onClick={onclose} to="/#home">
-
-              <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+              <HashLink className="font-medium" to="/#home">
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
                   Home
-                </button>     
-          </HashLink>
+                </button>
+              </HashLink>
             </li>
-            {/* 
+
             <li>
-              <Dropdown
-                menu={{
-                  items,
-                }}
-                trigger={["click"]}
-                className=""
-              >
-                <Link
-                  className="font-medium hover:text-white "
-                  onClick={(e) => e.preventDefault()}
-                >
-                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5 flex items-center">
-                    Services
-                    <CaretDownOutlined className="  ml-4 mt-1" />
-                  </button>
-                </Link>
-              </Dropdown>
-            </li>
-            */}
-            <li>
-              <HashLink 
-                to="/#service"
-                className="font-medium hover:text-white"
-              >
-                <button onClick={onclose} className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
+              <HashLink to="/#service" className="font-medium hover:text-white">
+                <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
                   Service
                 </button>
               </HashLink>
             </li>
-            
+
             <li>
-              <HashLink
-                to="/#workfor"
-                onClick={onclose}
-                className="font-medium hover:text-white"
-              >
+              <HashLink to="/#workfor" className="font-medium hover:text-white">
                 <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
                   We Work For
                 </button>
@@ -133,7 +65,6 @@ const Navbar = () => {
             <li>
               <HashLink
                 to="#contactus"
-                onClick={onclose}
                 className="font-medium hover:text-white"
               >
                 <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
@@ -141,12 +72,11 @@ const Navbar = () => {
                 </button>
               </HashLink>
             </li>
-            
+
             <li>
               <Link
-              target="_blank"
+                target="_blank"
                 to="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
-                onClick={onclose}
                 className="font-medium hover:text-white"
               >
                 <button className=" hover:bg-shade-color  w-full text-left hover:text-white rounded-l-3xl p-1 pl-5">
