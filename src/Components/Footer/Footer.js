@@ -30,11 +30,30 @@ const Footer = () => {
             </p>
             <hr className=" mt-5 w-20 ml-10 md:ml-0 lg:ml-0  " />
             <p className="flex ml-10 md:ml-0 lg:ml-0">
-              <FaFacebook className="h-6 w-6 mr-2 text-white cursor-pointer"></FaFacebook>
-              <FaYoutube className="h-6 w-6 mr-2 text-white cursor-pointer"></FaYoutube>
-              <FaLinkedinIn className="h-6 w-6 mr-2 text-white cursor-pointer"></FaLinkedinIn>
-              <FaTwitter className="h-6 w-6 mr-2 text-white cursor-pointer"></FaTwitter>
-              <FaInstagram className="h-6 w-6 mr-2 text-white cursor-pointer"></FaInstagram>
+              <a href="https://www.facebook.com/cutoutwiz" target="_blank">
+                <FaFacebook className="h-6 w-6 mr-2 text-white cursor-pointer"></FaFacebook>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UClIkCcEBksZigP56p593fDQ"
+                target="_blank"
+              >
+                <FaYoutube className="h-6 w-6 mr-2 text-white cursor-pointer"></FaYoutube>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/cutoutwiz-ltd/"
+                target="_blank"
+              >
+                <FaLinkedinIn className="h-6 w-6 mr-2 text-white cursor-pointer"></FaLinkedinIn>
+              </a>
+              <a href="https://twitter.com/cut_wiz?s=09" target="_blank">
+                <FaTwitter className="h-6 w-6 mr-2 text-white cursor-pointer"></FaTwitter>
+              </a>
+              <a
+                href="https://www.instagram.com/accounts/login/"
+                target="_blank"
+              >
+                <FaInstagram className="h-6 w-6 mr-2 text-white cursor-pointer"></FaInstagram>
+              </a>
             </p>
           </div>
           <div className="text-center">
@@ -63,13 +82,13 @@ const Footer = () => {
               Privacy Policy
             </Link>
             <Link
-              href="terms-condition"
+              to="terms-condition"
               target="_blank"
               className="link link-hover"
             >
               Terms & Conditions
             </Link>
-            <Link href="contact-form" target="_blank" className="link link-hover">
+            <Link to="contact-form" target="_blank" className="link link-hover">
               Contact Us
             </Link>
             <a
