@@ -109,7 +109,7 @@ const Case = () => {
         className={"fixed top-0 z-10 left-0 w-full h-full  " + getClose}
       >
         <div className="product-container flex gap-10">
-          <img className="max-h-[600px]:" src={getImage} />
+          <img className="w-[700px]" src={getImage} />
           <p className="text-white w-full   mb-2">{getDetails}</p>
         </div>
         <span onClick={HandleClose} className="closeBtn cursor-pointer">
