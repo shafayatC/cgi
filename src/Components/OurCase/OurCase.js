@@ -16,7 +16,7 @@ const Case = () => {
       title: "3D Model Bowler Bag",
       cat: "Fashion Accessories",
       details:
-        "Offering precision 3D design services for fashion accessory businesses, creating lifelike models that showcase each product's intricate details and enhance their visual appeal ",
+        "Offering precision 3D design services for fashion accessory businesses, creating lifelike models that showcase each product's intricate details and enhance their visual appeal. ",
     },
     {
       img: p2,
@@ -37,7 +37,7 @@ const Case = () => {
       title: "3D Model DSLR Camera",
       cat: "Studio Equipment",
       details:
-        "Our 3D modeling services provide realistic visualizations of your camera design, with customized solutions tailored to your needs. We pay attention to every detail, allowing you to refine product concepts, showcase designs, and support marketing efforts. Providing the tools and necessary to create outstanding 3D visualizations.",
+        "Our 3D modeling services provide realistic visualizations of your camera design, with customized solutions tailored to your needs. We pay attention to every detail, allowing you to refine product concepts, showcase designs, and support marketing efforts. Providing the tools that are necessary to create outstanding 3D visualizations.",
     },
     {
       img: p5,
