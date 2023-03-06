@@ -164,14 +164,14 @@
   content: "";
   top: 0;
   left: 0;
-  background: #fff;
+  background: black;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
-  z-index: 0;
+  opacity: 0.3;
+  z-index: 0.6;
 }
 
-.product-img {
+.product-container {
   width: 56%;
   margin: auto;
   top: 50%;

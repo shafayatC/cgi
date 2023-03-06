@@ -23,10 +23,11 @@ const Footer = () => {
               />
             </a>
             <p className="w-60">
-              The KOW Company is one of the leading CGI company for businesses
-              all over the world.
+              KOW Company delivers superior CGI services to businesses
+              worldwide, using advanced technology and a customer-centric
+              approach.
             </p>
-            <hr className=" mt-7 w-20 ml-10 md:ml-0 lg:ml-0  " />
+            <hr className=" mt-5 w-20 ml-10 md:ml-0 lg:ml-0  " />
             <p className="flex ml-10 md:ml-0 lg:ml-0">
               <FaFacebook className="h-6 w-6 mr-2 text-white cursor-pointer"></FaFacebook>
               <FaYoutube className="h-6 w-6 mr-2 text-white cursor-pointer"></FaYoutube>
