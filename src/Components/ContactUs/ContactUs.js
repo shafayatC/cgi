@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div id="contactus">
       <div className="mt-20 heading_3 mb-20">
         <h2>Discuss Your Ambitions with Us</h2>
         <div className="flex flex-col mt-10 items-center">

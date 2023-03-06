@@ -84,7 +84,7 @@ const Case = () => {
   };
 
   return (
-    <div className="pt-10 container mx-auto pb-9">
+    <div id="workfor" className="pt-10 container mx-auto pb-9">
       <div className="heading_2 ">
         <h2>Industries We Work For</h2>
       </div>

@@ -30,7 +30,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-10 pb-9">
+    <div id="service" className="pt-10 pb-9">
       <div className="heading_1">
         <h2>Service</h2>
       </div>
