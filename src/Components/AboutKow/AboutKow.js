@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutKow = () => {
   return (
-    <div className="w-full bg-shade-color py-[60px] relative z-10">
+    <div id="aboutKow" className="w-full bg-shade-color py-[60px] relative z-10">
       <div className="container m-auto flex flex-col md:grid md:grid-cols-5 gap-7 md:gap-0">
         <div className="m-auto md:m-0 md:col-span-1 flex flex-row items-center">
           <img
