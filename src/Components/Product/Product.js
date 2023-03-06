@@ -12,7 +12,6 @@ const Product = () => {
     const productImages = [
         require('./img/1.jpg'),
         require('./img/2.jpg'),
-        require('./img/3.jpg')
     ];
 
     const productArray = [
@@ -28,7 +27,7 @@ const Product = () => {
         },
 
         {
-            img: require('./img/shoe.png'),
+            img: require('./img/2.png'),
             title: "shoe sample title",
             url: "#"
         }
