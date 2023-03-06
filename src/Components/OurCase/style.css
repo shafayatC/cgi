@@ -172,11 +172,13 @@
 }
 
 .product-container {
-  width: 56%;
+  width: 90%;
   margin: auto;
   top: 50%;
   position: relative;
   transform: translateY(-50%);
+  background: #3c3c3c;
+  padding: 20px;
 }
 .closeBtn {
   position: absolute;
