@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div>
       <div className="mt-20 heading_3 mb-20">
-        <h2>Discuss your ambitions with us</h2>
+        <h2>Discuss Your Ambitions with Us</h2>
         <div className="flex flex-col mt-10 items-center">
           <p className=" text-white text-lg ">
             Use our knowledge to get your organization ready for the future.{" "}

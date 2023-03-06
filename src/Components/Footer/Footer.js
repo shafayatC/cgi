@@ -8,6 +8,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -54,23 +55,23 @@ const Footer = () => {
           </div>
           <div className="text-center ml-10 md:ml-0 lg:ml-0">
             <span className="font-bold text-white text-lg">Useful Links</span>
-            <a
-              href="privacy-policy "
+            <Link
+              to="privacy-policy "
               target="_blank"
               className="link link-hover"
             >
               Privacy Policy
-            </a>
-            <a
+            </Link>
+            <Link
               href="terms-condition"
               target="_blank"
               className="link link-hover"
             >
               Terms & Conditions
-            </a>
-            <a href="contact-form" target="_blank" className="link link-hover">
+            </Link>
+            <Link href="contact-form" target="_blank" className="link link-hover">
               Contact Us
-            </a>
+            </Link>
             <a
               href="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
               target="_blank"
