@@ -8,7 +8,6 @@ import p5 from "../OurCase/images/5.png";
 import p6 from "../OurCase/images/6.png";
 import p7 from "../OurCase/images/7.png";
 import p8 from "../OurCase/images/8.png";
-import { CloseCircleOutlined } from "@ant-design/icons";
 
 const Case = () => {
   const CaseImage = [
@@ -87,17 +86,15 @@ const Case = () => {
   return (
     <div className="pt-10 container mx-auto pb-9">
       <div className="heading_2 ">
-        <h2>industries we work for</h2>
+        <h2>Industries We Work For</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16  justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16 cursor-pointer  justify-items-center">
         {CaseImage.map((data) => (
           <div onClick={() => HandleImage(data.img, data.details)}>
             <div className="img-container  hover:scale-110 transition duration-300 ease-in-out">
               <img className="img-bag" src={data.img} alt="" />
               <div className="view-content ">
-                {/* <p className="text-white   mb-2">{data.details}</p> */}
                 <p className="text-white   mb-2">{data.cat}</p>
-                {/*<button className="view-button text-sm">View More</button> */}
               </div>
               <div className="blank "></div>
             </div>
@@ -108,9 +105,11 @@ const Case = () => {
         id="imgPopupWrap"
         className={"fixed top-0 z-10 left-0 w-full h-full  " + getClose}
       >
-        <div className="product-container flex gap-10">
+        <div className="product-container flex gap-8">
           <img className="w-[700px]" src={getImage} />
-          <p className="text-white w-full   mb-2">{getDetails}</p>
+          <p className="text-white w-full self-center text-justify  mb-2">
+            {getDetails}
+          </p>
         </div>
         <span onClick={HandleClose} className="closeBtn cursor-pointer">
           X
