@@ -9,8 +9,8 @@ const Services = () => {
   const dataArray = [
     {
       img: box,
-      heading: "3D View",
-      des: "Providing photorealistic image with dynamic lighting angels.",
+      heading: "3D Modeling/ Views",
+      des: "Producing photorealistic 3D model from product image and specs with dynamic lighting.",
     },
     {
       img: x,
@@ -47,7 +47,7 @@ const Services = () => {
               </div>
               <div className="serviceProductDes pb-12 md:pb-3 border-r-0 border-b-2 md:border-b-0 md:border-r-2 md:px-[10px] lg:px-[20px] xl:px-[40px] md:min-h-[105px]">
                 <h5>{data.heading}</h5>
-                <p className="text-left w-[201px]">{data.des}</p>
+                <p className="text-center ">{data.des}</p>
               </div>
             </div>
           </>
