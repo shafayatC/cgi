@@ -88,7 +88,7 @@ const Case = () => {
       <div className="heading_2 ">
         <h2>Industries We Work For</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 mx-16 gap-5 mt-16 cursor-pointer  justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-16 cursor-pointer  justify-items-center">
         {CaseImage.map((data) => (
           <div onClick={() => HandleImage(data.img, data.details)}>
             <div className="img-container  hover:scale-110 transition duration-300 ease-in-out">
