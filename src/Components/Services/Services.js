@@ -15,7 +15,7 @@ const Services = () => {
     {
       img: x,
       heading: "Textures",
-      des: "Easily changeable Fabric , textures or material for the 3D model.",
+      des: "Easily changeable Fabric , texture or material for the 3D model.",
     },
     {
       img: o,
