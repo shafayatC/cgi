@@ -14,7 +14,7 @@ const AboutKow = () => {
           />
         </div>
         <div className="md:col-span-4 flex items-center">
-          <p className="text-xl text-white text-center md:text-end md:pl-[100px]">
+          <p className="text-xl text-white text-center md:text-justify md:pl-[100px]">
             We are a specialized company in 3D modeling and CGI, producing
             high-quality 3D models, imagery and animations in collaboration with
             top 3D designers. Along with creating realistic 3D models, we also
