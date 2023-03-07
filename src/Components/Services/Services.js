@@ -8,11 +8,6 @@ import control from "./img/control.png";
 const Services = () => {
   const dataArray = [
     {
-      img: o,
-      heading: "3D Modeling",
-      des: "Producing High Quality 3D Model from product image and specifications.",
-    },
-    {
       img: box,
       heading: "3D View",
       des: "Providing photorealistic image with dynamic lighting angels.",
@@ -23,7 +18,7 @@ const Services = () => {
       des: "Easily changeable Fabric , textures or material for the 3D model.",
     },
     {
-      img: x,
+      img: o,
       heading: "Color Adjustments",
       des: "Quick exchange of Colors & Patterns",
     },
@@ -42,7 +37,7 @@ const Services = () => {
       </div>
       <div
         id="serviceWrap"
-        className="container m-auto grid grid-cols-1 md:grid-cols-5 pt-[70px] md:pt-[140px] gap-12 md:gap-0"
+        className="container m-auto grid grid-cols-1 md:grid-cols-4 pt-[70px] md:pt-[140px] gap-12 md:gap-0"
       >
         {dataArray.map((data, index) => (
           <>
