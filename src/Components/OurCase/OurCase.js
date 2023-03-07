@@ -28,16 +28,16 @@ const Case = () => {
     {
       img: p3,
       title: "3D Model Drill",
-      cat: "Home Appliances",
+      cat: "Hardware & Tools ",
       details:
         "Offering realistic 3D models that allow clients to visualize and refine product concepts, showcase designs, and support marketing efforts. By providing customized solutions that cater to each client's unique needs. ",
     },
     {
       img: p4,
       title: "3D Model DSLR Camera",
-      cat: "Studio Equipment",
+      cat: "Tech Equipements",
       details:
-        "Our 3D modeling services provide realistic visualizations of your camera design, with customized solutions tailored to your needs. We pay attention to every detail, allowing you to refine product concepts, showcase designs, and support marketing efforts. Providing the tools that are necessary to create outstanding 3D visualizations.",
+        "Our 3D modeling services provide realistic visualizations of your camera design, with customized solutions tailored to your needs. We pay attention to every product specification and detail, allowing you to refine product concepts, showcase designs, and support marketing efforts. Providing the tools that are necessary to create outstanding 3D visualizations.",
     },
     {
       img: p5,
@@ -49,14 +49,14 @@ const Case = () => {
     {
       img: p6,
       title: "3D Model VR Headset",
-      cat: "Virtual Reality Gears",
+      cat: "Tech Accessories",
       details:
         "Providing customized solutions to create realistic visualizations of your virtual reality gear, refining product concepts, and supporting marketing efforts. Trust us to deliver outstanding 3D models tailored to your needs.",
     },
     {
       img: p7,
       title: "3D Model Cleaning Bottles",
-      cat: "Household Cleaning Products ",
+      cat: "Household Products ",
       details:
         "Our 3D modeling services create realistic visualizations of your household cleaning products, refining product concepts and supporting marketing efforts. With attention to detail, we capture the essence of your products, from the shape of the bottle to the texture of the cleaner. Our customized solutions help your cleaning products stand out in a competitive market. Trust us to provide outstanding 3D models that showcase your cleaning products.",
     },
@@ -105,6 +105,7 @@ const Case = () => {
         id="imgPopupWrap"
         className={"fixed top-0 z-10 left-0 w-full h-full  " + getClose}
       >
+        <div onClick={HandleClose} className="bgshadow"></div>
         <div className="product-container flex gap-8">
           <img className="w-[700px]" src={getImage} />
           <p className="text-white w-full self-center text-justify  mb-2">
