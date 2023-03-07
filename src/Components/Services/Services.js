@@ -9,30 +9,31 @@ const Services = () => {
   const dataArray = [
     {
       img: box,
-      heading: "3D Views",
-      des: "Product images of any Perspective & Lighting",
+      heading: "3D View",
+      des: "Providing photorealistic image with dynamic lighting angels.",
     },
     {
       img: x,
       heading: "Textures",
-      des: "Easy change of Fabrics & Materials",
+      des: "Easily changeable Fabric , textures or material for the 3D model.",
     },
     {
       img: o,
       heading: "Color Adjustments",
       des: "Quick exchange of Colors & Patterns",
     },
+
     {
       img: control,
       heading: "Game Assests",
-      des: "Avatar Animations & realistic Material Behavior",
+      des: "Creating game environment design, character, asset modeling & animation.",
     },
   ];
 
   return (
     <div id="service" className="pt-10 pb-9">
       <div className="heading_1">
-        <h2>Service</h2>
+        <h2>Services</h2>
       </div>
       <div
         id="serviceWrap"
@@ -44,9 +45,9 @@ const Services = () => {
               <div className="srvImage">
                 <img src={data.img} />
               </div>
-              <div className="serviceProductDes pb-12 md:pb-3 border-r-0 border-b-2 md:border-b-0 md:border-r-2 md:px-[10px] lg:px-[50px] xl:px-[85px] md:min-h-[105px]">
+              <div className="serviceProductDes pb-12 md:pb-3 border-r-0 border-b-2 md:border-b-0 md:border-r-2 md:px-[10px] lg:px-[20px] xl:px-[40px] md:min-h-[105px]">
                 <h5>{data.heading}</h5>
-                <p>{data.des}</p>
+                <p className="text-left w-[201px]">{data.des}</p>
               </div>
             </div>
           </>
