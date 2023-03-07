@@ -15,7 +15,7 @@ const ServiceExplore = () => {
         <div className='w-full pb-10 pt-12'>
             <div className='container m-auto'>
                 <div className='grid grid-cols-6 gap-14'>
-                    <div className="col-span-6 h-[340px] md:h-auto md:col-span-4 flex flex-col justify-center items-center relative before:bg-gray-300 before:opacity-50 before:absolute before:w-full before:h-full ">
+                    <div className="col-span-6 h-[340px] md:h-auto md:col-span-4 flex flex-col justify-center items-center relative before:bg-white before:opacity-20 before:absolute before:w-full before:h-full ">
                         <div id='imgWrap' className='relative h-[450px] w-full'>
                             <img id='lining' className='imgLayer absolute bottom-0' src={require('./img/lining/'+getLinintColor+'.png')} />
                             <img id='laces' className='imgLayer absolute bottom-0' src={require('./img/laces/'+getLaesColor+'.png')} />
