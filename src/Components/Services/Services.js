@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import box from "./img/box.png";
+import box from "./img/box_2.png";
 import x from "./img/x.png";
 import o from "./img/o.png";
 import control from "./img/control.png";
