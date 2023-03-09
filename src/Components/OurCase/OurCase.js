@@ -30,7 +30,7 @@ const Case = () => {
       title: "3D Model Drill",
       cat: "Hardware & Tools ",
       details:
-        "Offering realistic 3D models that allow clients to visualize and refine product concepts, showcase designs, and support marketing efforts. By providing customized solutions that cater to each client's unique needs. ",
+        "Offering realistic 3D models that allow clients to visualize and refine product concepts, showcase designs, and support marketing efforts, by providing customized solutions that cater to each client's unique needs. ",
     },
     {
       img: p4,
@@ -44,7 +44,7 @@ const Case = () => {
       title: "3D Model Lipstick",
       cat: " Cosmetics ",
       details:
-        "Bring your cosmetics products to life with realistic visualizations that allow you to showcase and refine product concepts, support marketing efforts, and make informed decisions before manufacturing. With attention to detail, we create 3D models that capture the essence of your cosmetics, from the texture of the product to the intricate details of the packaging.",
+        "Bring your cosmetic products to life with realistic visualizations that allow you to showcase and refine product concepts, support marketing efforts, and make informed decisions before manufacturing. With attention to detail, we create 3D models that capture the essence of your cosmetics, from the texture of the product to the intricate details of the packaging.",
     },
     {
       img: p6,
