@@ -19,8 +19,8 @@ const AboutKow = () => {
             high-quality 3D models, imagery and animations in collaboration with
             top 3D designers. Along with creating realistic 3D models, we also
             offer high quality product image rendering tailored to retail
-            industries, enabling clients to catch the customer attention with
-            stunning product render outputs. Our commitment to delivering
+            industries, enabling clients to catch the customers attention with
+            stunning product rendered outputs. Our commitment to delivering
             exceptional visual experiences not only satisfies our clients but
             also attracts more business opportunities.
           </p>

@@ -10,12 +10,12 @@ const Services = () => {
     {
       img: box,
       heading: "3D Modeling/ Views",
-      des: "Producing photorealistic 3D model from product image and specs with dynamic lighting.",
+      des: "Producing photorealistic 3D model from product images and specs with dynamic lighting.",
     },
     {
       img: x,
       heading: "Textures",
-      des: "Easily changeable Fabric , texture or material for the 3D model.",
+      des: "Easily changeable Fabrics , textures or materials for the 3D model.",
     },
     {
       img: o,
@@ -26,7 +26,7 @@ const Services = () => {
     {
       img: control,
       heading: "Game Assests",
-      des: "Creating game environment design, character, asset modeling & animation.",
+      des: "Creating game environment designs, characters, asset modelings & animations.",
     },
   ];
 

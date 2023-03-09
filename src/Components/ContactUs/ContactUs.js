@@ -14,7 +14,7 @@ const ContactUs = () => {
           <a
             href="contact-form"
             target="_blank"
-            className="bg-shade-color px-4 py-1 mt-6 text-lg font-semibold text-white"
+            className="bg-shade-color px-5 py-2 rounded mt-6 text-lg font-semibold text-white"
           >
             Contact Us
           </a>
