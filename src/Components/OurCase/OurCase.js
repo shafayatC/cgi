@@ -35,7 +35,7 @@ const Case = () => {
     {
       img: p4,
       title: "3D Model DSLR Camera",
-      cat: "Tech Equipements",
+      cat: "Tech Equipement",
       details:
         "Our 3D modeling services provide realistic visualizations of your camera design, with customized solutions tailored to your needs. We pay attention to every product specification and detail, allowing you to refine product concepts, showcase designs, and support marketing efforts. Providing the tools that are necessary to create outstanding 3D visualizations.",
     },
