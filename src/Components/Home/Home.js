@@ -7,6 +7,7 @@ import ServiceExplore from '../ServiceExplore/ServiceExplore';
 import ServiceFor from '../ServiceFor/ServiceFor';
 import Services from '../Services/Services';
 import './style.css'; 
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -22,7 +23,10 @@ const Home = () => {
       <div className='home_right col-span-1'>
         <h3>3D PRODUCT</h3>
         <h2>MODELING</h2>
-        <button>Get Started</button>
+       
+        <Link to="/contact-form"> <button>Talk to Us  </button></Link>
+      
+        
       </div>
     </div>
         <AboutKow/>
