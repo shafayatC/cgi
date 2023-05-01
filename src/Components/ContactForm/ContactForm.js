@@ -38,7 +38,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="mb-10" style={{ marginTop: "4%" }}>
             <p
-              className="text-white"
+              className="text-white pb-2"
               style={{
                 textAlign: "center",
                 fontSize: "40px",
@@ -46,7 +46,7 @@ const ContactForm = () => {
                 fontWeight: "700",
               }}
             >
-              GET IN TOUCH WITH US
+              CONTACTING US
             </p>
 
             <p
