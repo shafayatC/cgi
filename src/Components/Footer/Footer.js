@@ -16,13 +16,13 @@ const Footer = () => {
       <div className="container mx-auto">
         <footer className=" footer px-10 pt-7 pb-3 grid justify-items-center  lg:grid-cols-5 lg:justify-items-center ">
           <div className="-mb-6 text-center md:text-left lg:text-left">
-            <a href="">
+            <Link to="/">
               <img
                 className="h-10 w-20 ml-20 md:ml-0 lg:ml-0"
                 src={logo}
                 alt=""
               />
-            </a>
+            </Link>
             <p className="w-60">
               KOW Company delivers superior CGI services to businesses
               worldwide, using advanced technology and a customer-centric

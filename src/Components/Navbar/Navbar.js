@@ -33,9 +33,11 @@ const Navbar = () => {
           >
             <MenuOutlined className="h-4 w-5 font-medium " />
           </button>
+          <Link to="/">
           <button className="menu mr-8  border-green-600 border-2 h-12 w-12 rounded-full">
             <HomeOutlined className="h-4 w-5 font-medium " />
           </button>
+          </Link>
         </div>
         <Drawer onClose={onClose} open={open}>
           <ul className="nav-ul">
