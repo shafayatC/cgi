@@ -36,9 +36,9 @@ const ContactForm = () => {
     <div className="container mx-auto  ">
       <div className="container">
         <div className="row">
-          <div className="mb-10" style={{ marginTop: "4%" }}>
+          <div className="mb-10">
             <p
-              className="text-white pb-2"
+              className="text-white pb-3"
               style={{
                 textAlign: "center",
                 fontSize: "40px",
@@ -46,7 +46,7 @@ const ContactForm = () => {
                 fontWeight: "700",
               }}
             >
-              CONTACTING US
+              GET IN TOUCH WITH US
             </p>
 
             <p
@@ -59,7 +59,20 @@ const ContactForm = () => {
                 marginTop: "-1%",
               }}
             >
-              Contact us
+              By
+            </p>
+
+            <p
+              className="text-white"
+              style={{
+                marginBottom: "2%",
+                textAlign: "center",
+
+                fontWeight: "700",
+                marginTop: "-1%",
+              }}
+            >
+              CONTACTING US
             </p>
             <form onSubmit={sendEmail}>
               <div className="container flex flex-col gap-y-2 justify-center  w-96 mx-auto mt-5">
