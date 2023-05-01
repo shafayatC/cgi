@@ -73,7 +73,7 @@ const Navbar = () => {
               </HashLink>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 target="_blank"
                 to="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
@@ -83,7 +83,7 @@ const Navbar = () => {
                   Sign up
                 </button>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </Drawer>
       </div>
