@@ -12,6 +12,7 @@ import TermsCondition from "./Components/TermsCondition/TermsCondition";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Thankyou from "./Components/Thankyou/Thankyou";
 import "./App.css";
+import Quote from "./Components/Quote/Quote";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsCondition />} />
         <Route path="/contact-form" element={<ContactForm />} />
+        <Route path="/quote" element={<Quote />} />
         <Route path="/thank-you/*" element={<Thankyou />} />
       </Routes>
       <Footer></Footer>
