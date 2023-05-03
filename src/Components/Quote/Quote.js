@@ -35,7 +35,7 @@ const Quote = () => {
     return (
         <div className="container mx-auto">
             <div className="container">
-                <div className="flex justify-center h-[500px]">
+                <div className="flex justify-center h-[530px]">
                     <div className="mb-10">
                         <p
                             className="text-white pb-3"
@@ -50,7 +50,7 @@ const Quote = () => {
                         </p>
                         <form onSubmit={sendEmail}>
                             <div className="container flex flex-col gap-y-2 justify-center mx-auto mt-5">
-                                <div className="flex items-center w-[800px] gap-5 mx-auto">
+                                <div className="flex flex-col md:flex-row  justify-center items-center w-full lg:w-[800px] md:w-[760px] gap-5 mx-auto">
                                     <div className="flex flex-col gap-4">
                                         <div className=" px-2 py-2 rounded-md mx-auto bg-white w-96">
                                             <input

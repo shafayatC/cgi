@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import logo from "./images/logo2.png";
+import logo from "./images/logo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -18,13 +18,13 @@ const Footer = () => {
           <div className="-mb-6 text-center md:text-left lg:text-left">
             <Link to="/">
               <img
-                className="h-10 w-20 ml-20 md:ml-0 lg:ml-0"
+                className="h-8 w-20 ml-20 md:ml-0 lg:ml-0"
                 src={logo}
                 alt=""
               />
             </Link>
             <p className="w-60">
-              KOW Company delivers superior CGI services to businesses
+              KOW Studios delivers superior CGI services to businesses
               worldwide, using advanced technology and a customer-centric
               approach.
             </p>
