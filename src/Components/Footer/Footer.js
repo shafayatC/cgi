@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import logo from "./images/logo2.png";
+import logo from "./images/logo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -14,17 +14,17 @@ const Footer = () => {
   return (
     <div className="bg-shade-color">
       <div className="container mx-auto">
-        <footer className=" footer px-10 pt-7 pb-3 grid justify-items-center  lg:grid-cols-5 lg:justify-items-center ">
+        <footer className=" footer px-10 pt-7 pb-3 grid justify-items-center  lg:grid-cols-4 lg:justify-items-center ">
           <div className="-mb-6 text-center md:text-left lg:text-left">
             <Link to="/">
               <img
-                className="h-10 w-20 ml-20 md:ml-0 lg:ml-0"
+                className="h-8 w-20 ml-20 md:ml-0 lg:ml-0"
                 src={logo}
                 alt=""
               />
             </Link>
             <p className="w-60">
-              KOW Company delivers superior CGI services to businesses
+              KOW Studios delivers superior CGI services to businesses
               worldwide, using advanced technology and a customer-centric
               approach.
             </p>
@@ -58,20 +58,20 @@ const Footer = () => {
           </div>
           <div className="text-center">
             <span className="font-bold text-white   text-lg">Menu</span>
-            <a className="link link-hover ">Home</a>
-            <a className="link link-hover">Features</a>
-            <a className="link link-hover">Services</a>
-            <a className="link link-hover">Pricing</a>
-            <a className="link link-hover">Blogs</a>
+            <Link to='/' className="link link-hover ">Home</Link>
+            {/* <Link to='/#service' className="link link-hover">Features</Link> */}
+            <a href='#service' className="link link-hover">Services</a>
+            <Link to='/quote'  className="link link-hover">Pricing</Link>
+            {/* <a className="link link-hover">Blogs</a> */}
           </div>
-          <div className="text-center ml-10 md:ml-0 lg:ml-0">
+          {/* <div className="text-center ml-10 md:ml-0 lg:ml-0">
             <span className="font-bold text-white  text-lg">Features</span>
             <a className="link link-hover">Shopify App</a>
             <a className="link link-hover">AmazonSpn</a>
             <a className="link link-hover">Cutoutwiz</a>
             <a className="link link-hover">BigCommerce App</a>
             <a className="link link-hover">Shotflow</a>
-          </div>
+          </div> */}
           <div className="text-center ml-10 md:ml-0 lg:ml-0">
             <span className="font-bold text-white text-lg">Useful Links</span>
             <Link
@@ -91,13 +91,13 @@ const Footer = () => {
             <Link to="contact-form" target="_blank" className="link link-hover">
               Contact Us
             </Link>
-            <a
+            {/* <a
               href="https://app.cutoutwiz.com/Identity/Account/Login?ReturnUrl=%2F"
               target="_blank"
               className="link link-hover"
             >
               Sign Up
-            </a>
+            </a> */}
           </div>
           <div className="text-center ml-20 md:ml-0 lg:ml-0">
             <span className="font-bold text-white text-lg pb-2 ml-8 lg:ml-5">
@@ -117,7 +117,7 @@ const Footer = () => {
       <footer className=" px-10 py-4 border-t bg-shade-color text-center text-white  border-black">
         <p>
           Designed And Developed By{" "}
-          <span className="font-semibold">CutOutWiz</span>{" "}
+          <span className="font-semibold">The KOW Company</span>{" "}
         </p>
       </footer>
     </div>
