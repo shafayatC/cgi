@@ -24,7 +24,7 @@ const Home = () => {
         <h3>3D PRODUCT</h3>
         <h2>MODELING</h2>
        
-        <Link to="/contact-form"> <button>Talk To Us</button></Link>
+        <Link to="/quote"> <button>Get Quote</button></Link>
       
         
       </div>
