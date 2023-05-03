@@ -24,7 +24,7 @@ const Home = () => {
         <h3>3D PRODUCT</h3>
         <h2>MODELING</h2>
        
-        <Link to="/quote"> <button>Get Quote</button></Link>
+        <Link to="/quote" target="_blank"> <button>Get Quote</button></Link>
       
         
       </div>
