@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../../Images/logo.png";
 import {
   FaFacebook,
   FaInstagram,
