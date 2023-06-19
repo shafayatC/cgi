@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../../Images/logo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -57,11 +57,11 @@ const Footer = () => {
             </p>
           </div>
           <div className="text-center">
-            <span className="font-bold text-white   text-lg">Menu</span>
+            <span className="font-bold text-white text-lg">Menu</span>
             <Link to='/' className="link link-hover ">Home</Link>
             {/* <Link to='/#service' className="link link-hover">Features</Link> */}
             <a href='#service' className="link link-hover">Services</a>
-            <Link to='/quote'  className="link link-hover">Pricing</Link>
+            <Link to='/quote' target="_blank" className="link link-hover">Pricing</Link>
             {/* <a className="link link-hover">Blogs</a> */}
           </div>
           {/* <div className="text-center ml-10 md:ml-0 lg:ml-0">
