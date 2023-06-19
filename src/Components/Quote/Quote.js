@@ -2,24 +2,26 @@ import React, { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const Quote = () => {
-    function randomDate(end) {
-        return new Number(end + Math.random());
-    }
-    var p = randomDate(new Number()) * 10000000000000000;
+    // function randomDate(end) {
+    //     return new Number(end + Math.random());
+    // }
+    // var p = randomDate(new Number()) * 10000000000000000;
+
     function sendEmail(e) {
         e.preventDefault();
 
         emailjs
             .sendForm(
                 "service_1zfatsb",
-                "template_0ciuxfr",
+                "template_h1zwel2",
                 e.target,
                 "user_3TcS4pRKMgpo7fArsKmSf"
             )
             .then(
                 (result) => {
                     console.log(result.text);
-                    window.location.href = "./thank-you/" + p;
+                    window.location.href = "./thank-you/";
+                    // window.location.href = "./thank-you/" + p;
                 },
                 (error) => {
                     console.log(error.text);
@@ -29,7 +31,7 @@ const Quote = () => {
     }
 
     useEffect(() => {
-        document.getElementById("hello").innerHTML = p;
+        // document.getElementById("hello").innerHTML = p;
     }, []);
 
     return (

@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { HashLink } from "react-router-hash-link";
+import logo from '../../Images/logo.png'; 
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
     <div className="container mx-auto pt-5 relative z-10">
       <div className="flex items-center justify-between">
         <Link to="/">
-          <img className="logo w-[100px]" src="img/logo.png" />
+          <img className="logo w-[100px]" src={logo} />
         </Link>
         <div className="menu_wrap flex items-center  mt-2">
           <button

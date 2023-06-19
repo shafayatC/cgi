@@ -147,7 +147,7 @@ function PrivacyPolicy(props) {
                 If you have any questions, comments or complaints regarding our
                 practices, or if you are of the view that we have not adhered to
                 this privacy policy, you can contact us by email
-                to info@cutoutwiz.com.{" "}
+                to info@thekowcompany.com.{" "}
               </p>
             </div>
             <div className="mt-5">

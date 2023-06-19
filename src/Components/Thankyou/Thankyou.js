@@ -25,7 +25,7 @@ function Thankyou(props) {
           <br /> assistance, you can contact us at:
           <br />
           <br />
-          <u>info@cutoutwiz.com</u>
+          <u>info@thekowcompany.com</u>
         </p>
       </div>
     </div>
