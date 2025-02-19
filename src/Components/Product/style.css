@@ -1,0 +1,5 @@
+#essPrev, #essNext {
+    top: 50%;
+    transform: translateY(-50%);
+    border: 4px solid #02b989;
+}

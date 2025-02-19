@@ -1,0 +1,128 @@
+.homeKWrap {
+    height:568px;
+}
+
+.home_right {
+    float: right;
+    margin-top: 15%;
+    text-align: center;
+    transform: translateY(-15%);
+    padding-right: 30px;
+}
+.home_right h3 {
+    font-size: 70px;
+    color: #fff;
+}
+.home_right h2 {
+    font-size: 80px;
+    color: #02b989;
+    font-weight: bold;
+}
+.home_right button {
+    background: #02b989;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+@keyframes animationBall {
+    0%   {
+        transform: rotate(0deg);
+    }
+    25%   {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animationWrapper {
+    0%   {
+        opacity: 0;
+        transform: scale(0.7);
+        transform-origin: left;
+    }
+    7%   {
+        opacity: 0.7;
+        transform: scale(0.6);
+        transform-origin: left;
+    }
+    14%   {
+        opacity: 0.6;
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+    20%   {
+        opacity: 0.8;
+        transform: scale(0.7);
+        transform-origin: left;
+    }
+    25%   {
+        opacity: 1;
+        transform: scale(1);
+        transform-origin: left;
+        
+    top: 307px;
+    left: 242px;
+    }
+    100% {
+        top: 650px;
+        left: 565px;
+    }
+  }
+  
+.ballShadowWrap {
+    position: absolute;
+    top: 307px;
+    left: 242px;
+    width: 100px;
+    height: 100px;
+    animation: animationWrapper 4s infinite ;
+    z-index: 0;
+}
+.ballAnim {
+	width: 100px;
+	position: absolute;
+    animation: animationBall 4s infinite;
+}
+
+#ballShadow {
+    position: absolute;
+    width: 81px;
+    height: 0px;
+    box-shadow: 0 0 19px 10px black;
+    transform: rotate(40deg);
+    top: 86px;
+    left: -25px;
+}
+@media screen and (max-width: 1023px) {
+    .home_right h3 {
+        font-size: 50px;
+    }
+    .home_right h2 {
+        font-size: 60px;
+    }
+    .home_right button {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .home_right h3 {
+        font-size: 35px;
+    }
+    .home_right h2 {
+        font-size: 45px;
+    }
+    .home_right button {
+        margin-top: 1
+        5px;
+    }
+    .home_right {
+        margin-top: 30%;
+        transform: translateY(-30%);
+    }
+}
