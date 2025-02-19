@@ -6,12 +6,14 @@ import ProductVideo from '../ProductVideo/ProductVideo';
 import ServiceFor from '../ServiceFor/ServiceFor';
 import Services from '../Services/Services';
 import './style_3.css'; 
+import ThreeDModelContainer from '../ThreeDModel/ThreeDModelContainer';
+import ServiceExplore from '../ServiceExplore/ServiceExplore';
 
 const Home = () => {
   return (
     <>
     <div className='homeKWrap container m-auto'>
-      <img src={require('./img/kshape.png')} className="h-screen absolute h-screen top-0"/>
+      <img src={require('./img/K.png')} className="h-screen absolute top-0"/>
       <div className='home_right col-span-1'>
         <h3>3D PRODUCT</h3>
         <h2>MODELING</h2>
@@ -21,7 +23,9 @@ const Home = () => {
         <AboutKow/>
         <Services/>
        <OurCase></OurCase>
+       <ServiceExplore/>
        <ServiceFor></ServiceFor>
+       <ThreeDModelContainer/>
        <ProductVideo></ProductVideo>
        <ContactUs></ContactUs>
        </>
