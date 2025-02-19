@@ -177,7 +177,7 @@
   top: 50%;
   position: relative;
   transform: translateY(-50%);
-  /* background: #3c3c3c; */
+  background: #3c3c3c;
   padding: 20px;
 }
 .closeBtn {

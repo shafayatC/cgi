@@ -106,7 +106,7 @@ const Case = () => {
         className={"fixed top-0 z-10 left-0 w-full h-full  " + getClose}
       >
         <div onClick={HandleClose} className="bgshadow"></div>
-        <div className="product-container flex gap-8 bg-[#3c3c3c]">
+        <div className="product-container flex gap-8">
           <img className="w-[700px]" src={getImage} />
           <p className="text-white w-full self-center text-justify  mb-2">
             {getDetails}
