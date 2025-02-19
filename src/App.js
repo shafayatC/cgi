@@ -12,7 +12,7 @@ import ContactForm from "./Components/ContactForm/ContactForm";
 import Thankyou from "./Components/Thankyou/Thankyou";
 import "./App.css";
 import Quote from "./Components/Quote/Quote";
-import Home from "./Components/Home/home_3";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
