@@ -1,7 +1,6 @@
 import React from 'react';
 import { Suspense } from 'react';
 import ViewModel from './ViewModel';
-import ThreeDModel from './ThreeDModel';
 import AdidasShoe from './AdidasShoe';
 import shoeImg_1 from './img/shoe_1.jpg';
 import shoeImg_2 from './img/shoe.jpg';
@@ -72,8 +71,9 @@ const ThreeDModelContainer = () => {
                     <h2>3D Model</h2>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 from-gray-950 gap-5'>
-                    <div className='h-[400px]'>
-                        <ViewModel imgSample={shoeImg_1}><ThreeDModel /></ViewModel>
+                    
+                <div className='h-[400px]'>
+                        <ViewModel imgSample={require('./img/sofa/1.jpg')} imageList={sofaImageList}><CameraModel /></ViewModel>
                     </div>
                     <div className='h-[400px]'>
                         <ViewModel imgSample={shoeImg_2}><AdidasShoe /></ViewModel>
