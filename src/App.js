@@ -2,7 +2,6 @@
 import { Route, Routes } from "react-router-dom";
 
 import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
 import SignIn from "./Components/Login/SignIn";
 import SignUp from "./Components/Login/SignUp";
 import Navbar from "./Components/Navbar/Navbar";
@@ -13,6 +12,7 @@ import ContactForm from "./Components/ContactForm/ContactForm";
 import Thankyou from "./Components/Thankyou/Thankyou";
 import "./App.css";
 import Quote from "./Components/Quote/Quote";
+import Home from "./Components/Home/home_3";
 
 function App() {
   return (
